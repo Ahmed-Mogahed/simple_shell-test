@@ -1,0 +1,31 @@
+.TH SIMPLE_SHELL 1 "August 2023" "Simple Shell Manual" "User Commands"
+.SH NAME
+simple_shell \- A simple UNIX command interpreter (shell)
+.SH SYNOPSIS
+simple_shell
+.SH DESCRIPTION
+simple_shell is a command interpreter that provides a basic interface for users to interact with their UNIX-like operating system. It reads and executes commands from the user, supports basic shell functionalities, and includes built-in commands such as cd, echo, env, help, and exit.
+.SH USAGE
+simple_shell is invoked by running the executable file "shelly" or "shelly" followed by an optional file containing shell commands to be executed.
+.SH OPTIONS
+The simple_shell does not support any command line options.
+.SH BUILT-IN COMMANDS
+The simple_shell supports the following built-in commands:
+.IP "cd [DIRECTORY]" 4
+Change the current working directory to the specified directory.
+.IP "echo [TEXT]" 4
+Display the specified text on the standard output.
+.IP "env" 4
+Display the current environment variables.
+.IP "exit [STATUS]" 4
+Exit the shell with an optional exit status.
+.IP "help" 4
+Display information about the built-in commands and their usage.
+.IP "history" 4
+Display the history of user input in the shell.
+.SH SEE ALSO
+.Sh "shelly(1)"
+.SH AUTHORS
+Written by Ahmed Ayman and Yoseif Mohsen.
+.SH COPYRIGHT
+This manual page and the simple_shell are Copyright © 2023 by Ahmed Ayman and Yoseif Mohsen.
