@@ -21,7 +21,7 @@ void execute_file(char *filename)
 
     while ((read = getline(&line, &len, file)) != -1)
     {
-        line[read - 1] = '\0'; // Remove newline character
+        line[read - 1] = '\0';
         char **cmd = shelly_parse_cmd(line);
         if (cmd)
         {
